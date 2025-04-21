@@ -6,7 +6,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 def setup_langchain():
     llm = ChatGoogleGenerativeAI(
         model="gemini-1.5-flash-002",
-        google_api_key="AIzaSyCwAMyKR7kGf3aTcTcX6BPIamPAbAMjb5Q",
+        google_api_key="YOUR_API_KEY",
         temperature=0.7,
         max_output_tokens=200
     )
